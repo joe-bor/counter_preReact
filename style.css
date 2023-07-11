@@ -9,10 +9,34 @@ body {
     justify-content: center;
     align-items: center;
 }
-.container {
-    border: 1px solid black;
-}
 
 #count {
-    font-size: 5rem;
+    margin-left: 35% ;
+    font-size: 8rem;
+}
+
+#clickable {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#add, #subtract, #number {
+    height: 4rem;
+    width: 4rem;
+    font-size: 4rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+#add:hover {
+    background-color: lightslategrey;
+    color: whitesmoke;
+}
+
+#subtract:hover {
+    background-color: lightslategray;
+    color: whitesmoke
 }
